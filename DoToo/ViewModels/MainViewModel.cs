@@ -4,6 +4,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using DoToo.Models;
 using DoToo.Repositories;
+using DoToo.Views;
 using System.Collections.ObjectModel;
 
 public partial class MainViewModel : ViewModel
