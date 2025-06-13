@@ -48,7 +48,7 @@ namespace DoToo.Repositories
                 return;
             }
 
-            var documentPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            var documentPath = FileSystem.AppDataDirectory;
             var databasePath = Path.Combine(documentPath, "TodoItems.db");
 
             connection = new SQLiteAsyncConnection(databasePath);
