@@ -8,7 +8,7 @@
 
     <FlyoutItem Title="Home" Icon="{StaticResource HomeIcon}">
         <ShellContent Title="HeadLines" Icon="{StaticResource HeadlinesIcon}">
-            <ContentPage Title="Headline Posts"/>
+            <ContentPage Title="Headline Post"/>
         </ShellContent>
         <Tab Title="News" Icon="{StaticResource NewsIcon}">
             <ContentPage Title="Local"/>
