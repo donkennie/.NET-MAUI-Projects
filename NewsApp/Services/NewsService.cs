@@ -1,10 +1,7 @@
-﻿namespace News.Services;
-
-using News.Models;
-using NewsApp;
-using NewsApp.Services;
+﻿using NewsApp.Models;
 using System.Net.Http.Json;
 
+namespace NewsApp.Services;
 public class NewsService : INewsService, IDisposable
 {
     private bool disposedValue;

@@ -1,4 +1,6 @@
-﻿using News.Models;namespace NewsApp.Services
+﻿using NewsApp.Models;
+
+namespace NewsApp.Services
 {
     public interface INewsService
     {
